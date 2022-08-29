@@ -1,0 +1,51 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color:#F1FFF5;
+  
+}
+.logo{
+  display: flex;
+}
+.logo h1{
+  font-size:3em;
+  color: #236084;
+}
+.logo i{
+  font-size: 2em;
+  margin-top: .5em;
+  color: #236084;
+  padding:0 10px;
+}
+.logo h1 span{
+  color: #49C7AB;
+  padding: 5px;
+
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 0em 1em;
+
+}
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+  color:#236084;
+  font-weight: 800;
+  font-size: 1.3em;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-links li a:hover{
+  text-decoration: underline;
+  text-decoration-color:#EC994B ;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 7px;
+}
