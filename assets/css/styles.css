@@ -4,25 +4,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top: 6rem;
+   scroll-behavior: smooth;
+ }
 header{
+  position: fixed;
+  top: 0;left: 0;right: 0;
+  background: #333;
+  z-index: 1000;
   display: flex;
-  justify-content: space-around;
-  padding: 1.5rem;
-  background-color:#F1FFF5;
-  
+  align-items: center; 
+  justify-content: space-between;
+  padding:2rem 9%;
 }
 .logo{
   display: flex;
 }
 .logo h1{
-  font-size:3em;
   color: #236084;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 0 0 0;
 }
 .logo i{
-  font-size: 2em;
-  margin-top: .5em;
+  font-size: 5em;
   color: #236084;
   padding:0 10px;
+  
 }
 .logo h1 span{
   color: #49C7AB;
@@ -30,22 +43,40 @@ header{
 
 }
 
+
 .nav-links li{
   display: inline-block;
-  padding: 0em 1em;
-
+  padding: 1.7em 1em;
+  
+  
 }
 .nav-links li a{
   transition: all 0.3s ease 0s;
   color:#236084;
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 2rem;
   list-style: none;
   text-decoration: none;
 }
 .nav-links li a:hover{
   text-decoration: underline;
-  text-decoration-color:#EC994B ;
+  text-decoration-color:#49C7AB;
   text-decoration-thickness: 2.5px;
   text-underline-offset: 7px;
+}
+.home-images img{
+  object-fit: cover;
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  background-size: contain
+  
+
+}
+.mantra{
+  text-align: center;
+  /* justify-content: center; */
+  top: 60rem;
+  min-height: 100vh;
+  padding: 100px;
 }
